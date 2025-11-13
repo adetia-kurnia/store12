@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px magenta;
+  padding: 15px;
+  width: 220px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  height: 150px;
+  object-fit: cover;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, violet, purple);
+  color: white;
+  cursor: pointer
+}
+
+.iklan{
+  width: 34rem;
+  border-radius: 15px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.iklan img{
+  width: 34rem;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.kategori{
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.kategori img{
+  width: 50%;
+  border-radius: 100%;
+  height: 100px;
+}
+
+body{
+  background: #f700ff;
+background: linear-gradient(90deg, rgba(247, 0, 255, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(146, 7, 141, 0.89) 47%, rgba(0, 212, 255, 1) 100%);
+}
